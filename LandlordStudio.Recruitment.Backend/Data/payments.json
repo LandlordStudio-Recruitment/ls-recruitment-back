@@ -4,7 +4,7 @@
     "dueDate": "2020-08-22",
     "status": "Unpaid",
     "category": "Utilities",
-    "desceiption": "Water bill for 8024 Via Pompeii",
+    "description": "Water bill for 8024 Via Pompeii",
     "amount": 4434
   },
   {
@@ -12,7 +12,7 @@
     "dueDate": "2020-09-01",
     "status": "Unpaid",
     "category": "Rent",
-    "desceiption": "Rent for 8024 Via Pompeii",
+    "description": "Rent for 8024 Via Pompeii",
     "amount": 10400
   },
   {
@@ -20,7 +20,7 @@
     "dueDate": "2020-09-07",
     "status": "Unpaid",
     "category": "Late Fee",
-    "desceiption": "Late Fee for 8024 Via Pompeii",
+    "description": "Late Fee for 8024 Via Pompeii",
     "amount": 10
   },
   {
@@ -28,7 +28,7 @@
     "dueDate": "2020-09-27",
     "status": "Unpaid",
     "category": "Utilities",
-    "desceiption": "Water bill for 8024 Via Pompeii",
+    "description": "Water bill for 8024 Via Pompeii",
     "amount": 3922
   },
   {
@@ -36,7 +36,7 @@
     "dueDate": "2020-10-01",
     "status": "Unpaid",
     "category": "Rent",
-    "desceiption": "Rent for 8024 Via Pompeii",
+    "description": "Rent for 8024 Via Pompeii",
     "amount": 10400
   },
   {
@@ -44,7 +44,7 @@
     "dueDate": "2020-10-16",
     "status": "Unpaid",
     "category": "Utilities",
-    "desceiption": "Water bill for 8024 Via Pompeii",
+    "description": "Water bill for 8024 Via Pompeii",
     "amount": 4121
   },
   {
@@ -52,7 +52,7 @@
     "dueDate": "2021-04-01",
     "status": "Unpaid",
     "category": "Rent",
-    "desceiption": "Rent for 8024 Via Pompeii",
+    "description": "Rent for 8024 Via Pompeii",
     "amount": 10400
   },
   {
@@ -60,7 +60,7 @@
     "dueDate": "2021-05-01",
     "status": "Unpaid",
     "category": "Rent",
-    "desceiption": "Rent for 8024 Via Pompeii",
+    "description": "Rent for 8024 Via Pompeii",
     "amount": 10400
   },
   {
@@ -68,7 +68,7 @@
     "dueDate": "2021-06-01",
     "status": "Unpaid",
     "category": "Rent",
-    "desceiption": "Rent for 8024 Via Pompeii",
+    "description": "Rent for 8024 Via Pompeii",
     "amount": 10700
   },
   {
@@ -76,7 +76,7 @@
     "dueDate": "2020-03-01",
     "status": "Paid",
     "category": "Security Deposit",
-    "desceiption": "Security deposit for 8024 Via Pompeii",
+    "description": "Security deposit for 8024 Via Pompeii",
     "amount": 9750
   },
   {
@@ -84,7 +84,7 @@
     "dueDate": "2020-04-01",
     "status": "Paid",
     "category": "Rent",
-    "desceiption": "Rent for 8024 Via Pompeii",
+    "description": "Rent for 8024 Via Pompeii",
     "amount": 10250
   },
   {
@@ -92,7 +92,7 @@
     "dueDate": "2020-06-01",
     "status": "Unpaid",
     "category": "Rent",
-    "desceiption": "Rent for 8024 Via Pompeii",
+    "description": "Rent for 8024 Via Pompeii",
     "amount": 10250
   },
   {
@@ -100,7 +100,7 @@
     "dueDate": "2020-07-01",
     "status": "Unpaid",
     "category": "Rent",
-    "desceiption": "Rent for 8024 Via Pompeii",
+    "description": "Rent for 8024 Via Pompeii",
     "amount": 10250
   },
   {
@@ -108,7 +108,7 @@
     "dueDate": "2020-07-13",
     "status": "Unpaid",
     "category": "Utilities",
-    "desceiption": "Water bill for 8024 Via Pompeii",
+    "description": "Water bill for 8024 Via Pompeii",
     "amount": 3867
   },
   {
@@ -116,7 +116,7 @@
     "dueDate": "2020-08-01",
     "status": "Unpaid",
     "category": "Rent",
-    "desceiption": "Rent for 8024 Via Pompeii",
+    "description": "Rent for 8024 Via Pompeii",
     "amount": 10250
   },
   {
@@ -124,7 +124,7 @@
     "dueDate": "2020-11-01",
     "status": "Unpaid",
     "category": "Rent",
-    "desceiption": "Rent for 8024 Via Pompeii",
+    "description": "Rent for 8024 Via Pompeii",
     "amount": 10400
   },
   {
@@ -132,7 +132,7 @@
     "dueDate": "2020-11-11",
     "status": "Unpaid",
     "category": "Utilities",
-    "desceiption": "Water bill for 8024 Via Pompeii",
+    "description": "Water bill for 8024 Via Pompeii",
     "amount": 4501
   },
   {
@@ -140,7 +140,7 @@
     "dueDate": "2020-12-01",
     "status": "Unpaid",
     "category": "Rent",
-    "desceiption": "Rent for 8024 Via Pompeii",
+    "description": "Rent for 8024 Via Pompeii",
     "amount": 10400
   },
   {
@@ -148,7 +148,7 @@
     "dueDate": "2021-01-01",
     "status": "Unpaid",
     "category": "Rent",
-    "desceiption": "Rent for 8024 Via Pompeii",
+    "description": "Rent for 8024 Via Pompeii",
     "amount": 10400
   },
   {
@@ -156,7 +156,7 @@
     "dueDate": "2021-01-05",
     "status": "Unpaid",
     "category": "Late Fee",
-    "desceiption": "Late fee for 8024 Via Pompeii",
+    "description": "Late fee for 8024 Via Pompeii",
     "amount": 10
   },
   {
@@ -164,7 +164,7 @@
     "dueDate": "2021-02-01",
     "status": "Unpaid",
     "category": "Rent",
-    "desceiption": "Rent for 8024 Via Pompeii",
+    "description": "Rent for 8024 Via Pompeii",
     "amount": 10400
   },
   {
@@ -172,7 +172,7 @@
     "dueDate": "2021-02-19",
     "status": "Unpaid",
     "category": "Utilities",
-    "desceiption": "Water bill for 8024 Via Pompeii",
+    "description": "Water bill for 8024 Via Pompeii",
     "amount": 4388
   },
   {
@@ -180,7 +180,7 @@
     "dueDate": "2021-03-01",
     "status": "Unpaid",
     "category": "Rent",
-    "desceiption": "Rent for 8024 Via Pompeii",
+    "description": "Rent for 8024 Via Pompeii",
     "amount": 10400
   }
 ]
