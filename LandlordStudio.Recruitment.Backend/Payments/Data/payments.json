@@ -1,5 +1,13 @@
 [
   {
+    "id": "95dd3547-7520-451e-aa81-f52c1168bec4",
+    "dueDate": "2020-06-28",
+    "status": "Unpaid",
+    "category": "Bond",
+    "description": "Bond for 8024 Via Pompeii",
+    "amount": 112000
+  },
+  {
     "id": "27f69c9f-c38d-41bd-a329-ba2fd5d379a7",
     "dueDate": "2020-08-22",
     "status": "Unpaid",

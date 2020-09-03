@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
 namespace LandlordStudio.Recruitment.Backend.Controllers
 {
@@ -7,18 +6,11 @@ namespace LandlordStudio.Recruitment.Backend.Controllers
     [Route("[controller]")]
     public class HelloWorldController : ControllerBase
     {
-        private readonly ILogger<HelloWorldController> _logger;
-
-        public HelloWorldController(ILogger<HelloWorldController> logger)
-        {
-            _logger = logger;
-        }
-
         [HttpGet]
         [Route("")]
-        public string Hello()
+        public string SayHello()
         {
-            return "Hi!";
+            return "Hello from the Landlord Studio recruitment test backend";
         }
     }
 }
