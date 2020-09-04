@@ -12,7 +12,7 @@ Thanks for taking the time to do our full-stack coding test. This will have four
 
 You will be assessed based on the following being met:
 
-- You complete the tasks described in [backend](#backend), [frontend](#frontend) tasks, and that the applications you produce functions as described in those tasks.
+- You complete the tasks described in the [backend](#backend) and [frontend](#frontend) tasks, and that the applications you produce functions as described in those tasks.
 
 - Your website roughly looks like the provided [design](./design-spec/layout_and_list.png) (please note that nothing has to be exact in terms of the look of the site).
 
