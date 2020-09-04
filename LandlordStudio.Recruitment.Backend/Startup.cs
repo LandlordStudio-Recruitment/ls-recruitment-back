@@ -8,6 +8,8 @@ namespace LandlordStudio.Recruitment.Backend
 {
     public class Startup
     {
+        private const string CorsPolicy = "AllowAnyOrigin";
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -20,7 +22,7 @@ namespace LandlordStudio.Recruitment.Backend
         {
             services.AddCors(options =>
             {
-                options.AddPolicy(name: "AllowAnyOrigin",
+                options.AddPolicy(name: CorsPolicy,
                     builder =>
                     {
                         builder.AllowAnyOrigin()
@@ -41,6 +43,8 @@ namespace LandlordStudio.Recruitment.Backend
             }
 
             app.UseRouting();
+
+            app.UseCors(CorsPolicy);
 
             app.UseAuthorization();
 
