@@ -1,3 +1,5 @@
+using LandlordStudio.Recruitment.Backend.Payments.Data;
+using LandlordStudio.Recruitment.Backend.Payments.Service;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -31,6 +33,8 @@ namespace LandlordStudio.Recruitment.Backend
                     });
             });
 
+            services.AddTransient<IPaymentService, PaymentService>();
+            services.AddTransient<IPaymentRepository, PaymentRepository>();
             services.AddControllers();
         }
 
