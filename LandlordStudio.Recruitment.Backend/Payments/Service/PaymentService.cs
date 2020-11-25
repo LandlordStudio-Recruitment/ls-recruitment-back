@@ -28,6 +28,11 @@ namespace LandlordStudio.Recruitment.Backend.Payments.Service
             if (paymentToUpdate == null)
                 throw new BaseException(Core.Enums.StatusCode.NotFound, "Payment doesn't exist");
 
+            if(paymentToUpdate.Amount > 100000)
+            {
+                throw new BaseException(Core.Enums.StatusCode.BadRequest, "You do not have sufficient funds");
+            }
+
             paymentToUpdate.Status = "Paid";
 
             return await _paymentRepository.UpdatePayment(paymentToUpdate);
