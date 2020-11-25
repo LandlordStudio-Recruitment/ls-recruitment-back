@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace LandlordStudio.Recruitment.Backend.Payments.Data
+namespace LandlordStudio.Recruitment.Backend.Payments.Service
 {
-    public interface IPaymentRepository
+    public interface IPaymentService
     {
         Task<IEnumerable<Payment>> GetPaymentsAsync();
-        Task<Payment> UpdatePayment(Payment payment);
+        Task<Payment> MarkPaymentAsPaid(string id);
     }
 }
