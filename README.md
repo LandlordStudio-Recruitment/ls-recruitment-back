@@ -6,9 +6,11 @@ Thanks for taking the time to do our full-stack coding test. This will have four
 
 2. a [task](#backend) to create an REST API for retrieval and update of those rental payments, and an error scenario.
 
-3. some [follow-up questions](./FOLLOW-UP.md)
+3. some [follow-up questions](./FOLLOW-UP.md) (please commit the follow-up question answers to at least one of the front or back end repositories).
 
----
+Based on previous feedback, we would expect the test to take 5-10 hours to complete (we have no time expectation however, you can break this time up however you like).
+
+**NOTE:** If you browse our github organisation you should have two invitations waiting for you, these will give you access two repositories named something like ls-recruitment-front-{YOUR NAME} and ls-recruitment-back-{YOUR-NAME}. If you don't not see the invitations or cannot see the repositories with your name on them, please contact us. (Please do not branch or make PRs for the repositories that do not have your name on them).
 
 You will be assessed based on the following being met:
 
@@ -46,6 +48,10 @@ Ideally this server should run on port 5000.
 We would like you to handle a specific error scenario in the API. If the amount of the payment being paid is over \$1000 (100,000 cents), then the API should return a error/non-success response indicating that the client does not have sufficient funds.
 
 **NB:** We do not expect you to integrate this error scenario into your frontend - this task is here to demonstrate how you design and implement error handling scenarios in a REST API.
+
+#### _Backend Tests_
+
+For the backend, please include at least one unit (or integration) test. This is to demonstrate how you structure tests as well as what you prioritize when testing, we do not require complete coverage.
 
 ### Frontend
 
