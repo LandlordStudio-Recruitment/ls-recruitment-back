@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LandlordStudio.Recruitment.Backend", "LandlordStudio.Recruitment.Backend\LandlordStudio.Recruitment.Backend.csproj", "{CB351EA3-C216-4B7C-979A-AEDE6F1AB810}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandlordStudio.Recruitment.Backend.Tests", "LandlordStudio.Recruitment.Backend.Tests\LandlordStudio.Recruitment.Backend.Tests.csproj", "{DCE8D0D7-BF72-4E86-BA28-CE5AC21F1771}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LandlordStudio.Recruitment.Backend.Tests", "LandlordStudio.Recruitment.Backend.Tests\LandlordStudio.Recruitment.Backend.Tests.csproj", "{DCE8D0D7-BF72-4E86-BA28-CE5AC21F1771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandlordStudio.Recruitment.Core", "LandlordStudio.Recruitment.Core\LandlordStudio.Recruitment.Core.csproj", "{45A670D4-9B9E-4B1D-AF28-EFF88A44A839}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{DCE8D0D7-BF72-4E86-BA28-CE5AC21F1771}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCE8D0D7-BF72-4E86-BA28-CE5AC21F1771}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCE8D0D7-BF72-4E86-BA28-CE5AC21F1771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45A670D4-9B9E-4B1D-AF28-EFF88A44A839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45A670D4-9B9E-4B1D-AF28-EFF88A44A839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45A670D4-9B9E-4B1D-AF28-EFF88A44A839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45A670D4-9B9E-4B1D-AF28-EFF88A44A839}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
