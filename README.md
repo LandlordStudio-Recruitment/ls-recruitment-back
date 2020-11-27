@@ -27,9 +27,9 @@ The tasks for this recruitment test are below, please complete everything descri
 Both the frontend and backend applications should be able to run on both OSX and Windows.  
 The frontend application should be able to run without installing anything other than node+npm, and the backend application should be able to run without installing anything other than .NET Core (3.1).
 
-Neither application should depend on the existence of any other application outside of these recruiment tasks.
+Neither application should depend on the existence of any other application outside of these recruitment tasks.
 
-### Bankend
+### Backend
 
 We would like you to implement a REST API using .NET Core. Please feel free to incorporate any Nuget packages you are comfortable with.
 We have provided you with a repository that is copied from [here](https://github.com/LandlordStudio-Recruitment/ls-recruitment-back) to get you started.  
