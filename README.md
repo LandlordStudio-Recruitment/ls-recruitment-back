@@ -25,13 +25,13 @@ You will be assessed based on the following being met:
 The tasks for this recruitment test are below, please complete everything described in [backend](#backend) and [frontend](#frontend).
 
 Both the frontend and backend applications should be able to run on both OSX and Windows.  
-The frontend application should be able to run without installing anything other than node+npm, and the backend application should be able to run without installing anything other than .NET Core (3.1).
+The frontend application should be able to run without installing anything other than node+npm, and the backend application should be able to run without installing anything other than .NET 5.
 
 Neither application should depend on the existence of any other application outside of these recruitment tasks.
 
 ### Backend
 
-We would like you to implement a REST API using .NET Core. Please feel free to incorporate any Nuget packages you are comfortable with.
+We would like you to implement a REST API using .NET. Please feel free to incorporate any Nuget packages you are comfortable with.
 We have provided you with a repository that is copied from [here](https://github.com/LandlordStudio-Recruitment/ls-recruitment-back) to get you started.  
 Two classes, `Payment.cs` and `PaymentRepository.cs` have been provided for you - you do not have to use these and they do not indicate any sort of style or pattern that we require. They are merely there to remove some of the more mundane boilerplate for the test if you should choose to utilize them.  
 Please make commits/PRs to this repository like you would at work.
@@ -94,7 +94,7 @@ To startup the frontend client run the following command.
 
 ## Running the backend project
 
-The backend project can be run via the [.NET Core CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-run) or using Visual Studio.
+The backend project can be run via the [.NET CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-run) or using Visual Studio.
 
 ## Submission Guidelines
 
