@@ -1,6 +1,6 @@
 # LandlordStudio full-stack recruitment test
 
-Thanks for taking the time to do our full-stack coding test. This will have four parts:
+Thanks for taking the time to do our full-stack coding test. This will have three parts:
 
 1. a [task](#frontend) to create a create a list of payable transaction displayed in a react-based website.
 
