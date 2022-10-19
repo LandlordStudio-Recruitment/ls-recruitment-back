@@ -1,5 +1,3 @@
-using Xunit;
-
 namespace LandlordStudio.Recruitment.Backend.Tests
 {
     public class When_Running_Unit_Tests
