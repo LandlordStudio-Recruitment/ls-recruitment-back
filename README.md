@@ -25,7 +25,7 @@ If you run into any issues, or if anything is unclear, please contact us - any f
 The tasks for this recruitment test are below, please complete everything described in [backend](#backend) and [frontend](#frontend).
 
 Both the frontend and backend applications should be able to run on both OSX and Windows.  
-The frontend application should be able to run without installing anything other than node+npm (it will require at least version 14 of node js), and the backend application should be able to run without installing anything other than .NET 5.
+The frontend application should be able to run without installing anything other than node+npm (it will require at least version 14 of node js), and the backend application should be able to run without installing anything other than .NET 6.
 
 Neither application should depend on the existence of any other application outside of these recruitment tasks.
 
