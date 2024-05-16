@@ -25,7 +25,7 @@ If you run into any issues, or if anything is unclear, please contact us - any f
 The tasks for this recruitment test are below, please complete everything described in [backend](#backend) and [frontend](#frontend).
 
 Both the frontend and backend applications should be able to run on both OSX and Windows.  
-The frontend application should be able to run without installing anything other than node+npm (it will require at least version 14 of node js), and the backend application should be able to run without installing anything other than .NET 6.
+The frontend application should be able to run without installing anything other than node+npm (it will require at least version 20 of node js), and the backend application should be able to run without installing anything other than .NET 8.
 
 Neither application should depend on the existence of any other application outside of these recruitment tasks.
 
@@ -72,23 +72,25 @@ Once the you have displayed the payments, clicking the `Pay` button on each appl
 
 - A call should be made to the REST API that updates the state of that payment to `Paid`.
 - The result of that call should be used to then update the status of that payment in the list that is displayed to the user.
+- If the call to update the payment fails, the payment list should not be updated, and the application should not crash.
 - While the call to pay an individual payment is being made, the user should not be able to pay again (i.e. the user interface should attempt to prevent the user from double paying).
 
 **NB:**
 You are not expected to match any of the styles, colour, fonts etc in the given design images exactly. These are just guidelines for how we would roughly like the site to be laid out and look.
 
-The frontend repository was created using `create-react-app ls-recruitment-front --template typescript`, with a few changes (see [here](https://create-react-app.dev/docs/documentation-intro) for more information on create-react-app).
+The frontend repository was created using Vite scaffolding (`npm create vite@latest`), with the `react-ts` template, and a few changes (see [here](https://vitejs.dev/guide) for more information on Vite).  
+We chose to use Vite as it is simple way to create a basic React web application with few requirements on understanding the underlying framework. If you are more comfortable with other node-based frameworks, please feel free to re-create an app with those - but we would like you to stick to Node + React + Typescript, as we need a common basis to assess candidates. If you do choose to use another framework, please ensure you provide any instructions required to run the application.
 
 ## Running the frontend project
 
 To startup the frontend client run the following command.
 
 - `npm install` - This will fetch the required node modules for the website to run (and for the other scripts below).
-- `npm start` - This will start the application for development.
+- `npm run dev` - This will start the application for development.
 
 ## Running the backend project
 
-The backend project can be run via the [.NET CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-run) or using Visual Studio.
+The backend project can be run via the [.NET CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-run) or using your IDE of choosing.
 
 ## Submission Guidelines
 
