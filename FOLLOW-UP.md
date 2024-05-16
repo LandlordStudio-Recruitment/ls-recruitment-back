@@ -6,9 +6,9 @@
 
 ### Q) Did you have to modify the data from payments.json in any way to complete any of your tasks? If so how and why?
 
-### Q) What's the command to start the application locally?
+### Q) What is the command to start the application locally?
 
-(Default) `npm start`
+(Default) `npm run dev`
 
 ---
 
