@@ -79,7 +79,7 @@ Once the you have displayed the payments, clicking the `Pay` button on each appl
 You are not expected to match any of the styles, colour, fonts etc in the given design images exactly. These are just guidelines for how we would roughly like the site to be laid out and look.
 
 The frontend repository was created using Vite scaffolding (`npm create vite@latest`), with the `react-ts` template, and a few changes (see [here](https://vitejs.dev/guide) for more information on Vite).  
-We chose to use Vite as it is simple way to create a basic React web application with few requirements on understanding the underlying framework. If you are more comfortable with other node-based frameworks, please feel free to re-create an app with those - but we would like you to stick to Node + React + Typescript, as we need a common basis to assess candidates. If you do choose to use another framework, please ensure you provide any instructions required to run the application.
+We chose to use Vite as it is a simple way to create a basic React web application with few requirements on understanding the underlying framework. If you are more comfortable with other node-based frameworks, please feel free to re-create an app with those - but we would like you to stick to Node + React + Typescript, as we need a common basis to assess candidates. If you do choose to use another framework, please ensure you provide any instructions required to run the application.
 
 ## Running the frontend project
 

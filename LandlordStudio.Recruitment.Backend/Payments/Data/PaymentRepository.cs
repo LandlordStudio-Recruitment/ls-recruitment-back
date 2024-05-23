@@ -10,8 +10,9 @@ namespace LandlordStudio.Recruitment.Backend.Payments.Data
     {
         public async Task<IEnumerable<Payment>> GetPayments()
         {
+            await using var stream = File.OpenRead("Payments/Data/payments.json");
             return await JsonSerializer
-                .DeserializeAsync<IEnumerable<Payment>>(File.OpenRead("Payments/Data/payments.json"));
+                .DeserializeAsync<IEnumerable<Payment>>(stream);
         }
     }
 }
